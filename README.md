@@ -13,4 +13,4 @@
 1. Fill **task** and **task_link** with the name of the task and link to the task in taiga in **metabase_live.csv**
 2. Fill your credentials in **creds.py**
 3. Serve your model using **Ollama**
-4. Run **main.py**
+4. Run **main.py** along with the amount of test cases you want the LLM to generate from the list (Example: "python main.py 3" will generate 3 test cases from 3 task from the metabase_live list).
