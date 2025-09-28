@@ -1,0 +1,6 @@
+TAIGA_EMAIL = ""
+TAIGA_PWD = ""
+QATOOLS_EMAIL = ""
+QATOOLS_PWD = ""
+METABASE_CSV = "metabase_live.csv"
+RESULT_CSV = "links.csv"
