@@ -110,7 +110,7 @@ while repeat_count != RPT:
                 
                 cleanup_downloaded_images(downloaded_images)
                 try:
-                    driver.get("https://qa.javan.id/project/9dc4b5b0-a4d8-41f6-8fc2-4cfe242e553b/test-case") ### Internal QA tool login and assertion
+                    driver.get("") ### Internal QA tool login and assertion
                     time.sleep(5)
                     driver.find_element(By.ID, "username").send_keys(QATOOLS_EMAIL)
                     driver.find_element(By.ID, "password").send_keys(QATOOLS_PWD)
@@ -221,4 +221,5 @@ while repeat_count != RPT:
         print("Failed at Tagia scraping.")
         driver.quit()
         cleanup_downloaded_images(downloaded_images)
+
         pass
